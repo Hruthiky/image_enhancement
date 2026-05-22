@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['ambulance', 'auto', 'bullock cart', 'bus', 'car', 'person', 'persons', 'police van', 'signal', 'train', 'truck', 'two wheeler']
+
+roboflow:
+  workspace: object-detection-n5bhe
+  project: my-first-project-3l3tu
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-n5bhe/my-first-project-3l3tu/dataset/2
